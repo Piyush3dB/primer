@@ -4,3 +4,4 @@ NAME="template_garamond"
 
 latex -interaction=batchmode -halt-on-error -output-directory=$PWD ${NAME}.tex
 dvisvgm ${NAME}.dvi -n -v 3 -o ${NAME}.svg
+
